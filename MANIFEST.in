@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include freshdi *.css
+recursive-include freshdi *.csv
+recursive-include freshdi *.html
+recursive-include freshdi *.ico
+recursive-include freshdi *.js
+recursive-include freshdi *.json
+recursive-include freshdi *.md
+recursive-include freshdi *.png
+recursive-include freshdi *.py
+recursive-include freshdi *.svg
+recursive-include freshdi *.txt
+recursive-exclude freshdi *.pyc
