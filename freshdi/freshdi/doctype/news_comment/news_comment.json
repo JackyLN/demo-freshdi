@@ -1,23 +1,30 @@
 {
  "actions": [],
- "autoname": "format:NEWS_COMMENT-{YYYY}-{#####}",
+ "autoname": "format:NEWS_COMMENT-{YYYY}-{MMMM}-{#####}",
  "creation": "2021-08-06 09:33:04.303478",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "message"
+  "message",
+  "likes"
  ],
  "fields": [
   {
    "fieldname": "message",
    "fieldtype": "Data",
    "label": "Message"
+  },
+  {
+   "default": "0",
+   "fieldname": "likes",
+   "fieldtype": "Data",
+   "label": "Likes"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-08-06 09:33:04.303478",
+ "modified": "2021-08-06 09:56:28.528951",
  "modified_by": "Administrator",
  "module": "freshdi",
  "name": "News Comment",
